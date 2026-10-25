@@ -4,6 +4,8 @@ A screen recorder for Windows. Record your screen, games and audio, take screens
 
 **[Download the latest version](https://github.com/hanulso78/jj-recorder-release/releases/latest)**
 
+![JJ Recorder home screen](screenshots/home.png)
+
 This repository only hosts the release files. Each release contains a zip file with the program, documentation and license information.
 
 ## Features
@@ -35,6 +37,24 @@ This repository only hosts the release files. Each release contains a zip file w
 - Trim, save as GIF, reduce file size, change playback speed, normalize loudness, extract audio and join files
 
 Available in English, Korean, Japanese and Chinese.
+
+## Screenshots
+
+**Video settings**: frame rate, quality with an estimated file size, encoder and overlays
+
+![Video settings](screenshots/video.png)
+
+**Audio settings**: system sound and microphone, noise reduction and volume
+
+![Audio settings](screenshots/audio.png)
+
+**General settings**: save location, file names, time limits, scheduled recording and updates
+
+![General settings](screenshots/general.png)
+
+**Image editor**: numbered stamps, blur, arrows and callouts on a screenshot
+
+![Image editor](screenshots/editor.png)
 
 ## Requirements
 
