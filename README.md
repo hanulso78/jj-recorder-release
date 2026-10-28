@@ -86,6 +86,13 @@ JJ Recorder does not collect or send any usage data. It connects to the internet
 
 JJ Recorder uses open source libraries such as Qt and FFmpeg under the LGPL. The list of libraries and their license texts are in `THIRD-PARTY.txt` and the `licenses` folder inside the zip. `SOURCE-OFFER.txt` explains how to get the source code of the LGPL libraries.
 
+## Support
+
+JJ Recorder is free to use. If it is useful to you, you can support its development:
+
+- **GitHub Sponsors** (card, monthly or one time): https://github.com/sponsors/hanulso78
+- **Bank transfer in Korea**: KakaoBank `3333346492333` (민인학)
+
 ## Contact
 
 Questions and feedback: inhak.min@gmail.com
