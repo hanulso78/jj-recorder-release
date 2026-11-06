@@ -43,7 +43,7 @@ Available in English, Korean, Japanese and Chinese.
 
 ## Screenshots
 
-**Video settings**: frame rate, quality with an estimated file size, encoder and overlays
+**Video settings**: frame rate, quality with an estimated file size, encoder and overlays. Drag the webcam in the preview to place it
 
 ![Video settings](screenshots/video.png)
 
@@ -51,7 +51,7 @@ Available in English, Korean, Japanese and Chinese.
 
 ![Audio settings](screenshots/audio.png)
 
-**General settings**: save location, file names, time limits, scheduled recording and updates
+**General settings**: save location, file names, time limits, scheduled recording and language
 
 ![General settings](screenshots/general.png)
 
