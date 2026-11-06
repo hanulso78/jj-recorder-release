@@ -27,17 +27,20 @@ This repository only hosts the release files. Each release contains a zip file w
 - Spoken or sound cues when recording starts, stops and pauses
 
 **On screen**
-- Draw on the screen while recording, and zoom in around the cursor
+- Draw on the screen while recording: pen, highlighter, laser pen, shapes, text, number stamps and mosaic, with undo and redo
+- Spotlight, zoom and whiteboard or blackboard to point things out
 - Click highlights, cursor spotlight and keystroke display
 - Webcam overlay with green or blue background removal (drag it in the preview to set its position and size), and logo overlay
 
 **Screenshots**
 - Screenshots, timed captures and scrolling capture of long pages
 - Copy text from the screen (OCR) with the OCR built into Windows, or with PaddleOCR, which reads screen text more accurately (downloaded the first time you choose it)
-- Image editor with arrows, callouts, numbered stamps, blur, mosaic, cropping and more. It opens right after a capture (you can turn this off)
+- Image editor with a ribbon: arrows, shapes, callouts, stamps, text with fonts, paint bucket, blur and mosaic. Select an area to apply effects, rotate, crop or move just that part. It opens right after a capture (you can turn this off)
+- Effects such as border and frame, watermark, brightness/contrast and hue/saturation, and Hide personal info, which finds email addresses, phone numbers and card numbers in the picture and covers them
 
 **Editing recordings**
 - Trim, save as GIF, reduce file size, change playback speed, normalize loudness, extract audio and join files
+- Make subtitles: turns the speech in a recording into an SRT file with whisper.cpp. Recognition runs on your PC, and the engine and model are downloaded the first time you use it
 
 Available in English, Korean, Japanese and Chinese.
 
@@ -81,7 +84,7 @@ You can also download the new zip and unzip it over the old folder.
 
 ## Uninstall
 
-Close the program and delete its folder. Settings are stored in `%LOCALAPPDATA%\jj-recorder`; delete that folder too if you want to remove them.
+Close the program and delete its folder. Settings and the files downloaded for PaddleOCR, OpenH264 and subtitles are stored in `%LOCALAPPDATA%\jj-recorder`; delete that folder too if you want to remove them. To find it, right-click the title bar and click **Open user folder**.
 
 ## Privacy
 
@@ -90,6 +93,7 @@ JJ Recorder does not collect or send any usage data. It connects to the internet
 - Check for and download updates from this GitHub repository (once a day when it starts, or when you click **Check for updates**; the daily check can be turned off)
 - Download the PaddleOCR files from this repository, when you choose PaddleOCR
 - Download OpenH264 from Cisco's server, when you choose OpenH264
+- Download the whisper.cpp engine from its GitHub releases and the speech model from Hugging Face, when you make subtitles for the first time
 
 ## License
 
