@@ -37,6 +37,7 @@ This repository only hosts the release files. Each release contains a zip file w
 - Copy text from the screen (OCR) with the OCR built into Windows, or with PaddleOCR, which reads screen text more accurately (downloaded the first time you choose it)
 - Image editor with a ribbon: arrows, shapes, callouts, stamps, text with fonts, paint bucket, blur and mosaic. Select an area to apply effects, rotate, crop or move just that part. It opens right after a capture (you can turn this off)
 - Effects such as border and frame, watermark, brightness/contrast and hue/saturation, and Hide personal info, which finds email addresses, phone numbers and card numbers in the picture and covers them
+- Other capture programs can use the image editor as their external editor: `jj-recorder.exe --edit "picture file"`
 
 **Editing recordings**
 - Trim, save as GIF, reduce file size, change playback speed, normalize loudness, extract audio and join files
