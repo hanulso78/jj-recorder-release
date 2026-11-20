@@ -34,9 +34,12 @@ This repository only hosts the release files. Each release contains a zip file w
 
 **Screenshots**
 - Screenshots, timed captures and scrolling capture of long pages
+- Delayed capture (1 to 30 seconds) for open menus and tooltips, and a shortcut that captures the last area or window again
+- Pin a picture to the screen: it stays on top of other windows, with zoom and opacity
 - Copy text from the screen (OCR) with the OCR built into Windows, or with PaddleOCR, which reads screen text more accurately (downloaded the first time you choose it)
 - Image editor with a ribbon: arrows, shapes, callouts, stamps, text with fonts, paint bucket, blur and mosaic. Select an area to apply effects, rotate, crop or move just that part. It opens right after a capture (you can turn this off)
 - Effects such as border and frame, watermark, brightness/contrast and hue/saturation, and Hide personal info, which finds email addresses, phone numbers and card numbers in the picture and covers them
+- Open the image editor from anywhere with Ctrl+Alt+F12 (the picture on the clipboard, or the latest screenshot)
 - Other capture programs can use the image editor as their external editor: `jj-recorder.exe --edit "picture file"`
 
 **Editing recordings**
